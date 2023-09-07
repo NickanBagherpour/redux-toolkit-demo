@@ -1,6 +1,6 @@
-const { cakeActions } = require("../cake/cake-slice");
-
 const createSlice = require("@reduxjs/toolkit").createSlice;
+
+const { cakeActions } = require("../cake/cake-slice");
 
 const initialState = {
   numOfIcecreams: 20,
